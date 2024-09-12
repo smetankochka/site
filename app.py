@@ -21,12 +21,12 @@ def index():
 
 @app.route("/blog")
 def blog():
-    return render_template("blog.html", posts=blog_posts, enumerate=enumerate)
+    return render_template("blog.html", posts=blog_posts, enumerate=enumerate, github_link="https://github.com/smetankochka", telegram_link="https://t.me/smetankasixtyfive", telegram_ch_link="https://t.me/smetankochka")
 
 @app.route("/blog/<int:post_id>")
 def blog_post(post_id):
     post = blog_posts[post_id]
-    return render_template("blog_post.html", post=post)
+    return render_template("blog_post.html", post=post, github_link="https://github.com/smetankochka", telegram_link="https://t.me/smetankasixtyfive", telegram_ch_link="https://t.me/smetankochka")
 
 if __name__ == "__main__":
     app.run(debug=True)

@@ -1,5 +1,5 @@
 body {
-    background-color: #4B0082; /* Пурпурный цвет */
+    background-color: #380260;
     color: #ffffff;
     font-family: sans-serif;
     margin: 0;
@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background: linear-gradient(to bottom, #800080, #4B0082); /* Более темный оттенок пурпурного */
+    background: linear-gradient(to bottom, #370137, #380260);/* Более темный оттенок пурпурного */
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -20,7 +20,7 @@ header {
 }
 
 article {
-    background-color: #D8BFD8; /* Светло-пурпурный оттенок */
+    background-color: #5c0b5c; /* Светло-пурпурный оттенок */
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
@@ -29,7 +29,7 @@ article {
 }
 
 footer {
-    background: linear-gradient(to bottom, #4B0082, #800080); /* Более темный оттенок пурпурного */
+    background: linear-gradient(to bottom, #380260, #370137); /* Более темный оттенок пурпурного */
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -152,11 +152,11 @@ footer {
 }
 
 .telegram {
-  background-color: #0088cc; /* Цвет Telegram */
+  background-color: #1f0553; /* Цвет Telegram */
 }
 
 .blog-post {
-  background-color: #9a559a; /* Светло-пурпурный оттенок */
+  background-color: #290129; /* Светло-пурпурный оттенок */
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -166,12 +166,12 @@ footer {
 }
 
 main .container article {
-  background-color: #f4abf4; /* Светло-пурпурный оттенок */
+  background-color: #290129; /* Светло-пурпурный оттенок */
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
   text-decoration: none;
-  color: #601e60;
+  color: #ffffff;
   display: block; /* Занимает всю ширину */
 }
 
