@@ -1,0 +1,14 @@
+[
+  {
+    "author": "Ваше имя",
+    "language": "Русский",
+    "title": "Название первой статьи",
+    "text": "\n@app.route(\"/\")\ndef index():\n    return render_template(\"index.html\", bio=bio)\n\n@app.route(\"/blog\")\ndef blog():\n    return render_template(\"blog.html\", posts=blog_posts)\n\nif __name__ == \"__main__\":\n    app.run(debug=True)\n"
+  },
+  {
+    "author": "Ваше имя",
+    "language": "Русский",
+    "title": "Название второй статьи",
+    "text": "Текст второй статьи..."
+  }
+]

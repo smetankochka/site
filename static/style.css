@@ -1,0 +1,174 @@
+body {
+    background-color: #800080; /* Пурпурный цвет */
+    color: #fff;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4B0082; /* Более темный оттенок пурпурного */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+article {
+    background-color: #D8BFD8; /* Светло-пурпурный оттенок */
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #4B0082; /* Более темный оттенок пурпурного */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.animated-button {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #4B0082; /* Более темный оттенок пурпурного */
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.animated-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #D8BFD8; /* Светло-пурпурный оттенок */
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+
+.animated-button:hover::before {
+  transform: translateX(0);
+}
+
+.animated-button span {
+  position: relative;
+  z-index: 1;
+}
+
+.animated-button i {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icon {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 10px;
+  font-size: 24px;
+  color: #fff;
+  background-color: #4B0082; /* Более темный оттенок пурпурного */
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  background-color: #D8BFD8; /* Светло-пурпурный оттенок */
+}
+
+.center-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #4B0082; /* Более темный оттенок пурпурного */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center; /* Центрирование по горизонтали */
+  align-items: center; /* Центрирование по вертикали */
+  margin-top: 10px;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center; /* Центрирование текста внутри иконки */
+  padding: 15px 20px;
+  margin: 0 10px;
+  font-size: 24px;
+  color: #fff;
+  background-color: #4B0082; /* Более темный оттенок пурпурного */
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.social-icon span {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.social-icon:hover {
+  background-color: #D8BFD8; /* Светло-пурпурный оттенок */
+}
+
+.github {
+  background-color: #24292e; /* Цвет GitHub */
+}
+
+.telegram {
+  background-color: #0088cc; /* Цвет Telegram */
+}
+
+.blog-post {
+  background-color: #9a559a; /* Светло-пурпурный оттенок */
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  display: block; /* Занимает всю ширину */
+}
+
+main .container article {
+  background-color: #f4abf4; /* Светло-пурпурный оттенок */
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #601e60;
+  display: block; /* Занимает всю ширину */
+}

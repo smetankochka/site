@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ post.title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>blog</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <article>
+                <h3>{{ post.title }}</h3>
+                <p>Автор: {{ post.author }}</p>
+                <p>Язык: {{ post.language }}</p>
+                <p>{{ post.text }}</p>
+            </article>
+
+            <div class="center-button">
+                <a href="/blog" class="animated-button">
+                    <span>back to blog</span>
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 powered by smetanka</p>
+
+        <div class="social-links">
+            <a href="{{ telegram_link }}" target="_blank" class="social-icon telegram">
+                <i class="fab fa-telegram"></i>
+                <span>telegram</span>
+            </a>
+            <a href="{{ github_link }}" target="_blank" class="social-icon github">
+                <i class="fab fa-github"></i>
+                <span>github</span>
+            </a>
+            <a href="{{ telegram_ch_link }}" target="_blank" class="social-icon telegram">
+                <i class="fab fa-telegram"></i>
+                <span>channel</span>
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/your_fontawesome_kit_id.js" crossorigin="anonymous"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
