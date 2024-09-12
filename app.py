@@ -12,7 +12,7 @@ bio = [
     " Hi! I'm Maksim, a 17 y.o. dev from Vladivostok",
     "I'm currently studying at University School of the Far Eastern Federal University, previously studied at SESC NSU (yeah, my mistake)",
     "I'm currently working on programming competitions, golang language and computer vision.",
-    "I've got a blog (Пустой пока похуй). I also sometimes write some about my life in my Telegram channel (in Russian).",
+    "I've got a blog (Пустой пока пох). I also sometimes write some about my life in my Telegram channel (in Russian).",
 ]
 
 @app.route("/")
