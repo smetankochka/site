@@ -1,13 +1,13 @@
 body {
-    background-color: #800080; /* Пурпурный цвет */
-    color: #fff;
+    background-color: #4B0082; /* Пурпурный цвет */
+    color: #ffffff;
     font-family: sans-serif;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #4B0082; /* Более темный оттенок пурпурного */
+    background: linear-gradient(to bottom, #800080, #4B0082); /* Более темный оттенок пурпурного */
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -24,11 +24,12 @@ article {
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
+    max-height: 500px;
     overflow-y: auto;
 }
 
 footer {
-    background-color: #4B0082; /* Более темный оттенок пурпурного */
+    background: linear-gradient(to bottom, #4B0082, #800080); /* Более темный оттенок пурпурного */
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -43,7 +44,7 @@ footer {
   font-size: 16px;
   font-weight: bold;
   color: #fff;
-  background-color: #4B0082; /* Более темный оттенок пурпурного */
+  background-color: #863ddd; /* Более темный оттенок пурпурного */
   border: none;
   border-radius: 5px;
   text-decoration: none;
