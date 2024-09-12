@@ -24,6 +24,7 @@ article {
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
+    overflow-y: auto;
 }
 
 footer {
@@ -171,4 +172,9 @@ main .container article {
   text-decoration: none;
   color: #601e60;
   display: block; /* Занимает всю ширину */
+}
+
+main {
+    max-height: 600px;
+    overflow-y: auto;
 }

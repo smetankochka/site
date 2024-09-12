@@ -14,9 +14,11 @@
         <div class="container">
             <article>
                 <h3>{{ post.title }}</h3>
-                <p>Автор: {{ post.author }}</p>
-                <p>Язык: {{ post.language }}</p>
-                <p>{{ post.text }}</p>
+                <p>Author: {{ post.author }}</p>
+                <p>Language: {{ post.language }}</p>
+                {% for paragraph in post.text %}
+                <p>{{ paragraph }}</p>
+                {% endfor %}
             </article>
 
             <div class="center-button">

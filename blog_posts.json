@@ -1,14 +1,17 @@
 [
   {
-    "author": "Ваше имя",
-    "language": "Русский",
-    "title": "Название первой статьи",
-    "text": "\n@app.route(\"/\")\ndef index():\n    return render_template(\"index.html\", bio=bio)\n\n@app.route(\"/blog\")\ndef blog():\n    return render_template(\"blog.html\", posts=blog_posts)\n\nif __name__ == \"__main__\":\n    app.run(debug=True)\n"
-  },
-  {
-    "author": "Ваше имя",
-    "language": "Русский",
-    "title": "Название второй статьи",
-    "text": "Текст второй статьи..."
+    "author": "smetanka",
+    "language": "english",
+    "title": "Deploying a website on a server/hosting",
+    "text": [
+      "To deploy a flask website on a server with a white IP, we need:",
+      "- Connect to the server using SSH to the server",
+      "- Transfer all files to a separate folder and move into it",
+      "- Mount the virtual environment to the folder using the command: python3 -m venv venv",
+      "- Start the virtual environment using the command: source venv/bin/activate",
+      "- Install all the necessary libraries (for example flask) using the command: pip install flask",
+      "- Create a local variable using the command: export FLASK_APP=app.py (name of your main file instead of app.py)",
+      "- Run the site as a background process without logging using the command: nohup flask run --host=0.0.0.0 &"
+    ]
   }
 ]
