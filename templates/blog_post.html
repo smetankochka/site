@@ -7,7 +7,13 @@
 </head>
 <body>
     <header>
-        <h1>blog</h1>
+        <div class="header-content">
+            <h1>smetanka's blog</h1>
+            <nav>
+                <a href="/" class="header-button {% if request.path == '/' %}active{% endif %}">home</a>
+                <a href="/blog" class="header-button {% if request.path == '/blog' %}active{% endif %}">blog</a>
+            </nav>
+        </div>
     </header>
 
     <main>

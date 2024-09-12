@@ -11,6 +11,9 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+    display: flex;
+    justify-content: space-between; /* Располагаем элементы по краям */
+    align-items: center;
 }
 
 .container {
@@ -178,4 +181,30 @@ main .container article {
 main {
     max-height: 600px;
     overflow-y: auto;
+}
+
+.header-content {
+    flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.header-button {
+    flex-direction: column;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-left: 20px;
+  background-color: #380260;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.header-button.active {
+  background-color: #330233; /* Темный оттенок */
+}
+
+.header-button:hover {
+  background-color: #330233;
 }
