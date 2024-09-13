@@ -8,7 +8,7 @@
 <body>
     <header>
         <div class="header-content">
-            <h1>smetanka's blog</h1>
+            <h1>{{ post.title }}</h1>
             <nav>
                 <a href="/" class="header-button {% if request.path == '/' %}active{% endif %}">home</a>
                 <a href="/blog" class="header-button {% if request.path == '/blog' %}active{% endif %}">blog</a>
@@ -19,20 +19,17 @@
     <main>
         <div class="container">
             <article>
-                <h2>{{ post.title }}</h2>
+                <h2></h2>
                 <h3>Author: {{ post.author }}</h3>
                 <h3>Language: {{ post.language }}</h3>
                 {% for paragraph in post.text %}
                 <h4>{{ paragraph }}</h4>
                 {% endfor %}
             </article>
-
-
         </div>
     </main>
 
     <footer>
-        <p>&copy; 2024 powered by smetanka</p>
 
         <div class="social-links">
             <a href="{{ telegram_link }}" target="_blank" class="social-icon telegram">
@@ -48,6 +45,7 @@
                 <span>channel</span>
             </a>
         </div>
+        <p>&copy; 2024 powered by smetanka</p>
     </footer>
 
     <script src="https://kit.fontawesome.com/your_fontawesome_kit_id.js" crossorigin="anonymous"></script>

@@ -1,5 +1,5 @@
 body {
-    background-color: #380260;
+    background-color: #290129;
     color: #ffffff;
     font-family: sans-serif;
     margin: 0;
@@ -7,12 +7,10 @@ body {
 }
 
 header {
-    background: linear-gradient(to bottom, #370137, #380260);/* Более темный оттенок пурпурного */
+    background: linear-gradient(to bottom, #12021e, #290129);/* Более темный оттенок пурпурного */
     color: #fff;
     padding: 20px;
     text-align: center;
-    display: flex;
-    justify-content: space-between; /* Располагаем элементы по краям */
     align-items: center;
 }
 
@@ -23,22 +21,17 @@ header {
 }
 
 article {
-    background-color: #5c0b5c; /* Светло-пурпурный оттенок */
+    background-color: #12021e; /* Светло-пурпурный оттенок */
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
-    max-height: 500px;
-    overflow-y: auto;
 }
 
 footer {
-    background: linear-gradient(to bottom, #380260, #370137); /* Более темный оттенок пурпурного */
+    background-color: #290129; /* Более темный оттенок пурпурного */
     color: #fff;
     text-align: center;
     padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
 .animated-button {
@@ -97,7 +90,7 @@ footer {
   margin: 0 10px;
   font-size: 24px;
   color: #fff;
-  background-color: #4B0082; /* Более темный оттенок пурпурного */
+  background-color: #12021e; /* Более темный оттенок пурпурного */
   border-radius: 50%;
   text-decoration: none;
 }
@@ -112,13 +105,10 @@ footer {
 }
 
 footer {
-    background-color: #4B0082; /* Более темный оттенок пурпурного */
     color: #fff;
     text-align: center;
     padding: 10px;
-    position: fixed;
     bottom: 0;
-    width: 100%;
 }
 
 .social-links {
@@ -134,8 +124,7 @@ footer {
   padding: 15px 20px;
   margin: 0 10px;
   font-size: 24px;
-  color: #fff;
-  background-color: #4B0082; /* Более темный оттенок пурпурного */
+  color: #fff;/* Более темный оттенок пурпурного */
   border-radius: 50%;
   text-decoration: none;
 }
@@ -150,16 +139,10 @@ footer {
   background-color: #D8BFD8; /* Светло-пурпурный оттенок */
 }
 
-.github {
-  background-color: #24292e; /* Цвет GitHub */
-}
 
-.telegram {
-  background-color: #1f0553; /* Цвет Telegram */
-}
 
 .blog-post {
-  background-color: #290129; /* Светло-пурпурный оттенок */
+  background-color: #12021e; /* Светло-пурпурный оттенок */
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -169,7 +152,7 @@ footer {
 }
 
 main .container article {
-  background-color: #290129; /* Светло-пурпурный оттенок */
+  background-color: #12021e; /* Светло-пурпурный оттенок */
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -179,7 +162,6 @@ main .container article {
 }
 
 main {
-    max-height: 600px;
     overflow-y: auto;
 }
 
